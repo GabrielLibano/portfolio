@@ -1,0 +1,41 @@
+main{
+    overflow: hidden;
+    background-color: black;
+}
+.main-about{
+    display: flex;
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.container-about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.title{
+    font-size: 35px;
+}
+.desc-title{
+    font-size: 28px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    color:#777777;
+    margin: auto;
+    justify-content: center;
+}
+.container-about img{
+    margin-top: -40px;
+}
+@media screen and (max-width: 732px) {
+    .main-about{
+        margin-top: 50px;
+    }
+}
