@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MainComponent, MainModule } from './components/main/main';
+import { MainComponent } from './components/main/main';
 import { FullStackComponent } from './components/fullstack/fullstack';
 import { NavBarComponent } from './components/navbar/navbar';
 import { HardSkillsComponent } from './components/Skills/HardSkills';
@@ -12,7 +12,6 @@ import { ExperienceComponent } from './components/experience/experience';
 @NgModule({
   declarations: [
     AppComponent,
-    AppComponent,
     FullStackComponent,
     MainComponent,
     NavBarComponent,
@@ -21,9 +20,9 @@ import { ExperienceComponent } from './components/experience/experience';
     ExperienceComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

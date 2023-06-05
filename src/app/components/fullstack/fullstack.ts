@@ -1,4 +1,5 @@
 import { Component, NgModule } from '@angular/core';
+import { AppModule } from '../../app.module'
 
 @Component({
     selector: 'app-fullstack',
@@ -6,8 +7,7 @@ import { Component, NgModule } from '@angular/core';
     styleUrls: ['./styles.css']
 })
 @NgModule({
-    declarations: [FullStackComponent],
-    exports: [FullStackComponent]
+    declarations: [FullStackComponent]
 })
 export class FullStackComponent{
 

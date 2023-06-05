@@ -1,5 +1,5 @@
 import { Component, NgModule } from '@angular/core';
-import { FullStackComponent } from '../fullstack/fullstack';
+import { AppModule } from '../../app.module'
 
 @Component({
     selector: 'app-main-component',
@@ -9,13 +9,3 @@ import { FullStackComponent } from '../fullstack/fullstack';
 export class MainComponent{
     
 }
-
-@NgModule({
-    imports: [FullStackComponent],
-    declarations: [
-      MainComponent
-    ],
-    exports: [MainComponent]
-  })
-
-export class MainModule { }
